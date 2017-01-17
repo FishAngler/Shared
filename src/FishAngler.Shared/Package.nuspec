@@ -7,7 +7,7 @@
     <owners>FishAngler</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/FishAngler</projectUrl>
-    <iconUrl>https://avatars1.githubusercontent.com/u/20560240?v=3&s=200</iconUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/20560240?v=3&#38;s=64</iconUrl>
     <description>Provides common and shared models for use in FishAngler public libraries</description>
     <releaseNotes>Initial Release</releaseNotes>
     <copyright>Copyright 2017</copyright>
@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\release\*.dll" target="lib" />
+    <file src="bin\release\*.dll" target="lib\portable46-net451+win81" />
   </files>
 </package>
