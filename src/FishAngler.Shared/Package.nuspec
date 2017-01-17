@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>FishAngler.Shared</id>
-    <version>0.9.0</version>
+    <version>0.9.0-alpha02</version>
     <authors>FishAngler</authors>
     <owners>FishAngler</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\release\*.dll" target="lib\portable46-net451+win81" />
+    <file src="bin\release\*.dll" target="lib\portable-net45+wp80+win8+wpa81" />
   </files>
 </package>
